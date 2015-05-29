@@ -50,7 +50,6 @@
                 break;
             case kCLAuthorizationStatusAuthorizedAlways:
                 NSLog(@"「常に許可」されている");
-                [self.locationManager requestStateForRegion:self.geoRegion];
                 break;
             case kCLAuthorizationStatusAuthorizedWhenInUse:
             case kCLAuthorizationStatusDenied:
@@ -72,7 +71,7 @@
         case kCLAuthorizationStatusNotDetermined:
             break;
         case kCLAuthorizationStatusAuthorizedAlways:
-            NSLog(@"「常に許可」に変更された");
+            NSLog(@"「常に許可」");
             [self.locationManager startMonitoringForRegion:self.geoRegion];
             break;
         case kCLAuthorizationStatusAuthorizedWhenInUse:
@@ -83,13 +82,14 @@
     }
 }
 
-//Region監視がスタートしたときに通知
+//領域監視がスタートしたときに通知
 - (void)locationManager:(CLLocationManager *)manager didStartMonitoringForRegion:(CLRegion *)region
 {
+    //現在の領域状態を確認
     [self.locationManager requestStateForRegion:region];
 }
 
-//Region内に入ったときに通知
+//領域内に入ったときに通知
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region
 {
     NSLog(@"領域内になったよ");
