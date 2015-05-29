@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F6826F1B182C3700518FB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6826E1B182C3700518FB9 /* main.m */; };
+		04F682721B182C3700518FB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F682711B182C3700518FB9 /* AppDelegate.m */; };
+		04F682751B182C3700518FB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F682741B182C3700518FB9 /* ViewController.m */; };
+		04F682781B182C3700518FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F682761B182C3700518FB9 /* Main.storyboard */; };
+		04F6827A1B182C3700518FB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F682791B182C3700518FB9 /* Images.xcassets */; };
+		04F6827D1B182C3700518FB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F6827B1B182C3700518FB9 /* LaunchScreen.xib */; };
+		04F682891B182C3700518FB9 /* RDTSampleGeoAndMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F682881B182C3700518FB9 /* RDTSampleGeoAndMotionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F682831B182C3700518FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F682611B182C3700518FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F682681B182C3700518FB9;
+			remoteInfo = RDTSampleGeoAndMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F682691B182C3700518FB9 /* RDTSampleGeoAndMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDTSampleGeoAndMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F6826D1B182C3700518FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F6826E1B182C3700518FB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F682701B182C3700518FB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F682711B182C3700518FB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F682731B182C3700518FB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F682741B182C3700518FB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F682771B182C3700518FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F682791B182C3700518FB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04F6827C1B182C3700518FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04F682821B182C3700518FB9 /* RDTSampleGeoAndMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDTSampleGeoAndMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F682871B182C3700518FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F682881B182C3700518FB9 /* RDTSampleGeoAndMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDTSampleGeoAndMotionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F682661B182C3700518FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F6827F1B182C3700518FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F682601B182C3700518FB9 = {
+			isa = PBXGroup;
+			children = (
+				04F6826B1B182C3700518FB9 /* RDTSampleGeoAndMotion */,
+				04F682851B182C3700518FB9 /* RDTSampleGeoAndMotionTests */,
+				04F6826A1B182C3700518FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F6826A1B182C3700518FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F682691B182C3700518FB9 /* RDTSampleGeoAndMotion.app */,
+				04F682821B182C3700518FB9 /* RDTSampleGeoAndMotionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F6826B1B182C3700518FB9 /* RDTSampleGeoAndMotion */ = {
+			isa = PBXGroup;
+			children = (
+				04F682701B182C3700518FB9 /* AppDelegate.h */,
+				04F682711B182C3700518FB9 /* AppDelegate.m */,
+				04F682731B182C3700518FB9 /* ViewController.h */,
+				04F682741B182C3700518FB9 /* ViewController.m */,
+				04F682761B182C3700518FB9 /* Main.storyboard */,
+				04F682791B182C3700518FB9 /* Images.xcassets */,
+				04F6827B1B182C3700518FB9 /* LaunchScreen.xib */,
+				04F6826C1B182C3700518FB9 /* Supporting Files */,
+			);
+			path = RDTSampleGeoAndMotion;
+			sourceTree = "<group>";
+		};
+		04F6826C1B182C3700518FB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F6826D1B182C3700518FB9 /* Info.plist */,
+				04F6826E1B182C3700518FB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F682851B182C3700518FB9 /* RDTSampleGeoAndMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F682881B182C3700518FB9 /* RDTSampleGeoAndMotionTests.m */,
+				04F682861B182C3700518FB9 /* Supporting Files */,
+			);
+			path = RDTSampleGeoAndMotionTests;
+			sourceTree = "<group>";
+		};
+		04F682861B182C3700518FB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F682871B182C3700518FB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F682681B182C3700518FB9 /* RDTSampleGeoAndMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F6828C1B182C3700518FB9 /* Build configuration list for PBXNativeTarget "RDTSampleGeoAndMotion" */;
+			buildPhases = (
+				04F682651B182C3700518FB9 /* Sources */,
+				04F682661B182C3700518FB9 /* Frameworks */,
+				04F682671B182C3700518FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDTSampleGeoAndMotion;
+			productName = RDTSampleGeoAndMotion;
+			productReference = 04F682691B182C3700518FB9 /* RDTSampleGeoAndMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F682811B182C3700518FB9 /* RDTSampleGeoAndMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F6828F1B182C3700518FB9 /* Build configuration list for PBXNativeTarget "RDTSampleGeoAndMotionTests" */;
+			buildPhases = (
+				04F6827E1B182C3700518FB9 /* Sources */,
+				04F6827F1B182C3700518FB9 /* Frameworks */,
+				04F682801B182C3700518FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F682841B182C3700518FB9 /* PBXTargetDependency */,
+			);
+			name = RDTSampleGeoAndMotionTests;
+			productName = RDTSampleGeoAndMotionTests;
+			productReference = 04F682821B182C3700518FB9 /* RDTSampleGeoAndMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F682611B182C3700518FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ROADTO;
+				TargetAttributes = {
+					04F682681B182C3700518FB9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					04F682811B182C3700518FB9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 04F682681B182C3700518FB9;
+					};
+				};
+			};
+			buildConfigurationList = 04F682641B182C3700518FB9 /* Build configuration list for PBXProject "RDTSampleGeoAndMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F682601B182C3700518FB9;
+			productRefGroup = 04F6826A1B182C3700518FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F682681B182C3700518FB9 /* RDTSampleGeoAndMotion */,
+				04F682811B182C3700518FB9 /* RDTSampleGeoAndMotionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F682671B182C3700518FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F682781B182C3700518FB9 /* Main.storyboard in Resources */,
+				04F6827D1B182C3700518FB9 /* LaunchScreen.xib in Resources */,
+				04F6827A1B182C3700518FB9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F682801B182C3700518FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F682651B182C3700518FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F682751B182C3700518FB9 /* ViewController.m in Sources */,
+				04F682721B182C3700518FB9 /* AppDelegate.m in Sources */,
+				04F6826F1B182C3700518FB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F6827E1B182C3700518FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F682891B182C3700518FB9 /* RDTSampleGeoAndMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F682841B182C3700518FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F682681B182C3700518FB9 /* RDTSampleGeoAndMotion */;
+			targetProxy = 04F682831B182C3700518FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F682761B182C3700518FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F682771B182C3700518FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F6827B1B182C3700518FB9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F6827C1B182C3700518FB9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F6828A1B182C3700518FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F6828B1B182C3700518FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F6828D1B182C3700518FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RDTSampleGeoAndMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F6828E1B182C3700518FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RDTSampleGeoAndMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F682901B182C3700518FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RDTSampleGeoAndMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDTSampleGeoAndMotion.app/RDTSampleGeoAndMotion";
+			};
+			name = Debug;
+		};
+		04F682911B182C3700518FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RDTSampleGeoAndMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDTSampleGeoAndMotion.app/RDTSampleGeoAndMotion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F682641B182C3700518FB9 /* Build configuration list for PBXProject "RDTSampleGeoAndMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F6828A1B182C3700518FB9 /* Debug */,
+				04F6828B1B182C3700518FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F6828C1B182C3700518FB9 /* Build configuration list for PBXNativeTarget "RDTSampleGeoAndMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F6828D1B182C3700518FB9 /* Debug */,
+				04F6828E1B182C3700518FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F6828F1B182C3700518FB9 /* Build configuration list for PBXNativeTarget "RDTSampleGeoAndMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F682901B182C3700518FB9 /* Debug */,
+				04F682911B182C3700518FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F682611B182C3700518FB9 /* Project object */;
+}
